@@ -3,7 +3,7 @@ version: "3"
 services:
   playit-docker:
     container_name: "playit-docker"
-    image: pepaondrugs/playitgg-docker:v0.15.13-arm
+    image: pepaondrugs/playitgg-docker:v0.17.1-arm
     volumes:
         - playit-volume:/app
     restart: unless-stopped
